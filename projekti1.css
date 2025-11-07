@@ -14,7 +14,7 @@ border: 2px solid gray;
 border-radius: 20px;
 }
 .card{
-background-color: burlywood;
+background-color: rgb(240, 204, 157);
 padding: 20px;
 color: black;
 border: 1px solid gray;
@@ -27,8 +27,12 @@ h3{
 }
 p{
     font-size: 20px;
- }
+    content: ;
+}
+p::first-line{
+    background-color: antiquewhite;
 
+}
 h1::first-letter{
     color: brown;
     font-size: 50px;
